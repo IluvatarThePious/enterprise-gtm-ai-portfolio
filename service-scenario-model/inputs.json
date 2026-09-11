@@ -1,0 +1,17 @@
+{
+  "label": "Fictional customer-proof service",
+  "price": 900,
+  "fee_rate": 0.029,
+  "fee_fixed": 0.30,
+  "delivery_cost_per_started_order": 33,
+  "startup_cost": 350,
+  "fixed_cost": 100,
+  "founder_hourly_value": 50,
+  "scenarios": [
+    {"name": "zero-sales", "booked": 0, "started": 0, "completed_retained": 0, "settled": 0, "refunded": 0, "founder_hours": 20},
+    {"name": "base", "booked": 3, "started": 3, "completed_retained": 3, "settled": 3, "refunded": 0, "founder_hours": 42},
+    {"name": "one-payout-delayed", "booked": 3, "started": 3, "completed_retained": 3, "settled": 2, "refunded": 0, "founder_hours": 42},
+    {"name": "refund-after-work", "booked": 1, "started": 1, "completed_retained": 0, "settled": 1, "refunded": 1, "founder_hours": 25},
+    {"name": "paid-not-delivered", "booked": 3, "started": 0, "completed_retained": 0, "settled": 3, "refunded": 0, "founder_hours": 12}
+  ]
+}
