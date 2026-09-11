@@ -1,0 +1,6 @@
+scenario,booked_orders,completed_retained_orders,gross_settled_receipts,refunds_paid,settled_processing_fees,delivery_cash_cost,startup_cost,fixed_cost,scenario_net_cash,unsettled_net_payout,unfinished_nonrefunded_orders,delivery_obligation_at_sales_value,accrual_contribution_estimate,founder_hours,cash_per_founder_hour,cash_less_imputed_founder_time
+zero-sales,0,0,0.0,0.0,0.0,0.0,350.0,100.0,-450.0,0.0,0,0.0,-450.0,20.0,-22.5,-1450.0
+base,3,3,2700.0,0.0,79.2,99.0,350.0,100.0,2071.8,0.0,0,0.0,2071.8,42.0,49.33,-28.2
+one-payout-delayed,3,3,1800.0,0.0,52.8,99.0,350.0,100.0,1198.2,873.6,0,0.0,2071.8,42.0,28.53,-901.8
+refund-after-work,1,0,900.0,900.0,26.4,33.0,350.0,100.0,-509.4,0.0,0,0.0,-509.4,25.0,-20.38,-1759.4
+paid-not-delivered,3,0,2700.0,0.0,79.2,0.0,350.0,100.0,2170.8,0.0,3,2700.0,-529.2,12.0,180.9,1570.8
